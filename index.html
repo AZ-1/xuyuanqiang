@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	
 	<title>便签</title>
 	
@@ -18,11 +18,6 @@
 				<div id="blue" class="commen title" >蓝 色</div>
 		    </div>
 		</div>
-<!--	<div class="noteStyle" id="noteStyle">
-			<img src="" alt="" />
-			<div class="content">沙发扫地好风骚搜款到发货抖擞着咖啡是接电话发生地</div>
-		</div>
-	-->
 	<script>
 	var show=false;
 	function changeback(){
@@ -46,19 +41,19 @@
 	}
 	yellow.onclick=function(){
 		for(var i=0;i<noteStyle.length;i++)
-		    noteStyle[i].style.background='url(sp11.png) -100px -90px no-repeat';
+		    noteStyle[i].style.background='url(img/sp11.png) -100px -90px no-repeat';
 	}
 	red.onclick=function(){
 		for(var i=0;i<noteStyle.length;i++)
-		   noteStyle[i].style.background='url(sp11.png) -100px -380px no-repeat';
+		   noteStyle[i].style.background='url(img/sp11.png) -100px -380px no-repeat';
 	}
 	pink.onclick=function(){
 		for(var i=0;i<noteStyle.length;i++)
-		    noteStyle[i].style.background='url(sp11.png) -370px -80px no-repeat';
+		    noteStyle[i].style.background='url(img/sp11.png) -370px -80px no-repeat';
 	}
 	blue.onclick=function(){
 		for(var i=0;i<noteStyle.length;i++)
-		   noteStyle[i].style.background='url(sp11.png) -380px -380px no-repeat';
+		   noteStyle[i].style.background='url(img/sp11.png) -380px -380px no-repeat';
 	}
 	/*changeDiv.onmouseout=function(){
 		changeDiv.style.display='none';
@@ -70,7 +65,7 @@ function newNote(){
 	content.className='content';
 	content.innerHTML='吴辉大坏蛋'
 	var close = document.createElement('img');
-	close.src='deleteButton.png';
+	close.src='img/deleteButton.png';
 	close.className='close';
 	var note = document.createElement('div');
 	note.className='noteStyle';

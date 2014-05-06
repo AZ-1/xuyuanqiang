@@ -22,13 +22,13 @@ body,div{
 	font-size:25px; 
 }
 #add{
-	background: url('add.jpg') no-repeat;
+	background: url('../img/add.jpg') no-repeat;
 }
 #change{
-	background: url('change.jpg') no-repeat;
+	background: url('../img/change.jpg') no-repeat;
 }
 .title{
-	background: url('title.jpg') no-repeat;
+	background: url('../css/title.jpg') no-repeat;
 	margin: 0;
 }
 #yellow{
